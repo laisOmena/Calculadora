@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="cal.css" rel="stylesheet">
+        <script type="text/javascript" src="cal.JS"></script>
+    </head>
+    <body>
+
+        <div id="title">
+            <h1>Calculadora</h1>
+        </div>
+    
+        <div>
+            <input id="box" type="text" class="box"/><br><br/>
+ 
+            <input type="submit" class="button" value="C" onclick="reset();"/><br><br/>
+            
+            <input type="submit" class="button" value="7" onclick="button(7);"/>
+            <input type="submit" class="button" value="8" onclick="button(8);"/>
+            <input type="submit" class="button" value="9" onclick="button(9);"/>
+            <input type="submit" class="button" value="+" onclick="button('+');"/><br><br/>
+
+            <input type="submit" class="button" value="4" onclick="button(4);"/>
+            <input type="submit" class="button" value="5" onclick="button(5);"/>
+            <input type="submit" class="button" value="6" onclick="button(6);"/>
+            <input type="submit" class="button" value="-" onclick="button('-');"/><br><br/>
+
+            <input type="submit" class="button" value="1" onclick="button(1);"/>
+            <input type="submit" class="button" value="2" onclick="button(2);"/>
+            <input type="submit" class="button" value="3" onclick="button(3);"/>
+            <input type="submit" class="button" value="*" onclick="button('*');"/><br><br/>
+
+            <input type="submit" class="button" value="0" onclick="button(0);"/>
+            <input type="submit" class="button" value="=" onclick="calculate();"/>
+            <input type="submit" class="button" value="." onclick="button('.');"/>
+            <input type="submit" class="button" value="/" onclick="button('/');"/>
+
+        </div>
+            
+    </body>
+</html>
