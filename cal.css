@@ -6,10 +6,14 @@
 .button {
     width: 3em;
     height: 3em;
+    cursor: pointer;
     color: crimson;
     font-size: 1.5em;
     background-color:white;
     border-color: rebeccapurple;
+}
+.button span {
+    font-size: 1.7em; 
 }
 .box {
     height: 1.5em;

@@ -13,29 +13,61 @@
         <div>
             <input id="box" type="text" class="box"/><br><br/>
  
-            <input type="submit" class="button" value="C" onclick="reset();"/><br><br/>
+            <button class="button" type="button" value="C" onclick="reset()">
+                <span>C</span>
+            </button><br><br>
+                 
+            <button class="button" type="button" onclick="button(7)">
+                <span>7</span>
+            </button>
+            <button class="button" type="button" onclick="button(8)">
+                <span>8</span>
+            </button>
+            <button class="button" type="button" onclick="button(9)">
+                <span>9</span>
+            </button>
+            <button class="button" type="button" onclick="button('+')">
+                <span>+</span>
+            </button><br><br>
+
+            <button class="button" type="button" onclick="button(4)">
+                <span>4</span>
+            </button>
+            <button class="button" type="button" onclick="button(5)">
+                <span>5</span>
+            </button>
+            <button class="button" type="button" onclick="button(6)">
+                <span>6</span>
+            </button>
+            <button class="button" type="button" onclick="button('-');">
+                <span>-</span>
+            </button><br><br>
             
-            <input type="submit" class="button" value="7" onclick="button(7);"/>
-            <input type="submit" class="button" value="8" onclick="button(8);"/>
-            <input type="submit" class="button" value="9" onclick="button(9);"/>
-            <input type="submit" class="button" value="+" onclick="button('+');"/><br><br/>
-
-            <input type="submit" class="button" value="4" onclick="button(4);"/>
-            <input type="submit" class="button" value="5" onclick="button(5);"/>
-            <input type="submit" class="button" value="6" onclick="button(6);"/>
-            <input type="submit" class="button" value="-" onclick="button('-');"/><br><br/>
-
-            <input type="submit" class="button" value="1" onclick="button(1);"/>
-            <input type="submit" class="button" value="2" onclick="button(2);"/>
-            <input type="submit" class="button" value="3" onclick="button(3);"/>
-            <input type="submit" class="button" value="*" onclick="button('*');"/><br><br/>
-
-            <input type="submit" class="button" value="0" onclick="button(0);"/>
-            <input type="submit" class="button" value="=" onclick="calculate();"/>
-            <input type="submit" class="button" value="." onclick="button('.');"/>
-            <input type="submit" class="button" value="/" onclick="button('/');"/>
-
+            <button class="button" type="button" onclick="button(1)">
+                <span>1</span>
+            </button>
+            <button class="button" type="button" onclick="button(2)">
+                <span>2</span>
+            </button>
+            <button class="button" type="button" onclick="button(3)">
+                <span>3</span>
+            </button>
+            <button class="button" type="button" onclick="button('*')">
+                <span>*</span>
+            </button><br><br>
+            
+            <button class="button" type="button" onclick="button(0)">
+                    <span>0</span>
+            </button>
+            <button class="button" type="button" onclick="calculate()">
+                    <span>=</span>
+            </button>
+            <button class="button" type="button" onclick="button('.')">
+                    <span>.</span>
+            </button>
+            <button class="button" type="button" onclick="button('/')">
+                    <span>/</span>
+            </button>
         </div>
-            
     </body>
 </html>

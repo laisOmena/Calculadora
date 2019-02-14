@@ -1,14 +1,18 @@
+
 function button(num) {
-   document.getElementById("box").value += num;
+    document.getElementById("box").value += num;
 }
 
-function reset(){
+function reset() {
     document.getElementById("box").value = "";
 }
 
-function calculate(){
+function calculate() {
     var resul = 0;
-    resul = document.getElementById("box").value;
-    document.getElementById("box").value = "";
-    document.getElementById("box").value = eval(resul);
+    var box = document.getElementById("box");
+
+    resul = box.value;
+    reset();
+
+    box.value = eval(resul);
 }
